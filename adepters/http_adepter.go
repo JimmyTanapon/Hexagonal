@@ -15,7 +15,7 @@ func NewHttpOrderHandler(service core.OrderService) *HttpOrderHandler {
 func (h *HttpOrderHandler) CreateOrder(c *fiber.Ctx) error {
 	var order core.Order
 	if err := c.BodyParser(&order); err != nil {
-		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{"error": "invalid request"})
+		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{"error": err.Error()})
 	}
 	if err := h.service.CreateOrder(order); err != nil {
 		return c.Status(fiber.StatusInternalServerError).JSON(fiber.Map{"error": err.Error()})

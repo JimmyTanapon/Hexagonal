@@ -10,14 +10,14 @@ type orderServiceImpl struct {
 	repo OrderRepository
 }
 
-func NewOrdeService(repo OrderRepository) OrderService {
+func NewOrderService(repo OrderRepository) OrderService {
 
 	return &orderServiceImpl{repo: repo}
 }
 
 func (s *orderServiceImpl) CreateOrder(order Order) error {
 	if order.Total < 0 {
-		return errors.New("Total must be Poseitive ")
+		return errors.New("Total must be Positive")
 	}
 	if err := s.repo.SaveOrder(order); err != nil {
 		return err

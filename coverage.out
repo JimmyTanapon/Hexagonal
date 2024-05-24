@@ -1,0 +1,20 @@
+mode: set
+github.com/JimmyTanapon/Hexagonal/main.go:22.13,29.16 4 0
+github.com/JimmyTanapon/Hexagonal/main.go:29.16,30.37 1 0
+github.com/JimmyTanapon/Hexagonal/main.go:32.2,39.21 7 0
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:13.57,16.2 1 1
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:18.59,19.21 1 1
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:19.21,21.3 1 1
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:22.2,22.48 1 1
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:22.48,24.3 1 1
+github.com/JimmyTanapon/Hexagonal/core/order_service.go:26.2,26.12 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/gorm_adepter.go:12.63,14.2 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/gorm_adepter.go:16.60,17.50 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/gorm_adepter.go:17.50,19.3 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/gorm_adepter.go:20.2,20.12 1 0
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:12.71,14.2 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:15.60,17.45 2 1
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:17.45,19.3 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:20.2,20.53 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:20.53,22.3 1 1
+github.com/JimmyTanapon/Hexagonal/adepters/http_adepter.go:23.2,23.50 1 1
